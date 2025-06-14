@@ -47,7 +47,7 @@ ClipboardManager automatically tracks and stores your clipboard content — incl
    cd Hi9841/CBM
    Open the CBM project in Visual Studio or your preferred C# editor
 
-# 2. Build The App
+ 2. Build The App
 ```bash
    dotnet publish -c Release -r win-x64 --self-contained true ^
   -p:PublishSingleFile=true ^
