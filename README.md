@@ -1,5 +1,7 @@
-![image](https://github.com/user-attachments/assets/a06fd029-9e84-41d5-898b-276d80232ece)
+
 # 📋 ClipboardManager (CBM)
+
+![image](https://github.com/user-attachments/assets/a06fd029-9e84-41d5-898b-276d80232ece)
 
 A sleek, dark-themed clipboard history manager built with C# and WinForms.  
 ClipboardManager automatically tracks and stores your clipboard content — including text and images — with timestamps for better productivity and reference.
