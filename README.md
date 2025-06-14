@@ -1,4 +1,4 @@
-# 📋 ClipboardManager (CBM)
+![image](https://github.com/user-attachments/assets/ec8c9ac6-b86a-482c-be05-0a25fb2eb565)# 📋 ClipboardManager (CBM)
 
 A sleek, dark-themed clipboard history manager built with C# and WinForms.  
 ClipboardManager automatically tracks and stores your clipboard content — including text and images — with timestamps for better productivity and reference.
@@ -26,7 +26,7 @@ ClipboardManager automatically tracks and stores your clipboard content — incl
 
 ## 📸 Screenshot
 
-![image](https://github.com/user-attachments/assets/26cbc8de-39df-4fd4-a487-b457f74d2a74)
+![image](https://github.com/user-attachments/assets/26cbc8de-39df-4fd4-a487-b457f74d2a74)  
 <sup>Dark UI with text + image support, built for speed and simplicity.</sup>
 
 ---
@@ -34,7 +34,7 @@ ClipboardManager automatically tracks and stores your clipboard content — incl
 ## 🧭 Navigation
 
 - `History` – View full clipboard history.
-- `Keybinds` – Configure hotkeys (customizable in future updates).
+- `Keybinds` – Configure hotkeys
 
 ---
 
@@ -43,3 +43,15 @@ ClipboardManager automatically tracks and stores your clipboard content — incl
 1. Clone the repo:
    ```bash
    git clone https://github.com/Hi9841/Hi9841.git
+   cd Hi9841/CBM
+   
+# 2. Open the CBM project in Visual Studio or your preferred C# editor
+
+# 3. In your terminal ```dotnet publish -c Release -r win-x64 --self-contained true ^
+  -p:PublishSingleFile=true ^
+  -p:IncludeAllContentForSelfExtract=true ^
+  -p:TrimUnusedDependencies=false ^
+  -o publish
+```
+ This will output a portable .exe in the /publish folder.
+
