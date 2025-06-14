@@ -49,11 +49,7 @@ ClipboardManager automatically tracks and stores your clipboard content — incl
 
  2. Build The App
 ```bash
-   dotnet publish -c Release -r win-x64 --self-contained true ^
-  -p:PublishSingleFile=true ^
-  -p:IncludeAllContentForSelfExtract=true ^
-  -p:TrimUnusedDependencies=false ^
-  -o publish
+dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true -p:TrimUnusedDependencies=false -o publish
 ```
 This will output a portable .exe in the /publish folder.
 
